@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View, TouchableOpacity, Image } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity, Image , TextInput} from "react-native";
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import {
     widthPercentageToDP as wp,
@@ -32,12 +32,14 @@ const Search = () => {
      borderRadius: wp("2px"),
    }}>
    <AntDesign name="search1" size={24} color="black" />
-   <Text
+   <TextInput
    style={{
      alignItems: "center",
      gap: wp("10px"),
-     fontWeight: "bold",
-   }}>Search</Text>
+     fontWeight: "bold",}}
+     placeholder="Search"
+     placeholderTextColor="black"
+   />
   
    </View>  
    <Image
