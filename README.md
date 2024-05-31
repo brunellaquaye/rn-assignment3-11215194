@@ -65,4 +65,6 @@ The application provides a list of 15 ongoing tasks. Each task includes details 
 ## Styling
 The application is styled using `StyleSheet` and inline styling.
 
+![A screenshot of the application](<WhatsApp Image 2024-05-31 at 13.46.28.jpeg>)
+
 ---
