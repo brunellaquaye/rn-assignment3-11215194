@@ -140,7 +140,6 @@ const Categories = () => {
               borderRadius: wp("4px"),
               marginHorizontal: wp("5px"),
             }}
-            className="bg-white mr-5 p-5 rounded-xl"
           >
             <View>
               <Text style={{ fontWeight: "bold" }}>{item.title}</Text>
